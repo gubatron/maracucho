@@ -2,7 +2,7 @@ package com.gubatron.maracucho.messages;
 
 import com.gubatron.maracucho.Constants;
 
-public class HelloMessage extends Message {
+public final class HelloMessage extends Message {
     public final String version;
     public final String agent;
 

@@ -3,7 +3,7 @@ package com.gubatron.maracucho.messages;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PeersMessage extends Message {
+public final class PeersMessage extends Message {
     public final List<String> peers;
     public PeersMessage() {
         super("peers");
